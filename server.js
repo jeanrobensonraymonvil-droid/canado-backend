@@ -163,6 +163,154 @@ app.post('/api/rooby', async (req, res) => {
 });
 
 /* ════════════════════════════════════
+   ROUTE — /api/generate-exam
+   Génération de questions d'examen par IA
+════════════════════════════════════ */
+app.post('/api/generate-exam', async (req, res) => {
+  const { module_code, module_titre, programme, annee, nb_questions = 10 } = req.body;
+  if (!module_code || !module_titre) {
+    return res.status(400).json({ error: 'module_code et module_titre requis.' });
+  }
+
+  const prompt = `Tu es un expert en formation technique professionnelle en Haïti (CFPH - Canado Technique).
+Génère exactement ${nb_questions} questions QCM pour l'examen du module suivant :
+
+- Code : ${module_code}
+- Titre : ${module_titre}
+- Programme : ${programme} (${annee === '1' ? '1ère' : '2ème'} année)
+
+Chaque question doit :
+- Être pertinente et adaptée au niveau technique du module
+- Avoir exactement 4 choix de réponse (A, B, C, D)
+- Avoir une seule bonne réponse
+- Varier entre connaissances théoriques et applications pratiques
+
+Réponds UNIQUEMENT en JSON valide, sans markdown, sans explication, format exact :
+{
+  "questions": [
+    {
+      "numero": 1,
+      "question": "Texte de la question ?",
+      "choix": {
+        "A": "Premier choix",
+        "B": "Deuxième choix",
+        "C": "Troisième choix",
+        "D": "Quatrième choix"
+      },
+      "reponse": "A",
+      "explication": "Courte explication de la bonne réponse."
+    }
+  ]
+}`;
+
+  try {
+    const response = await anthropic.messages.create({
+      model: 'claude-sonnet-4-5',
+      max_tokens: 4000,
+      messages: [{ role: 'user', content: prompt }]
+    });
+
+    const raw = response.content.filter(b => b.type === 'text').map(b => b.text).join('');
+    const clean = raw.replace(/```json|```/g, '').trim();
+    const parsed = JSON.parse(clean);
+    res.json(parsed);
+
+  } catch (err) {
+    console.error('[generate-exam] Erreur:', err.message);
+    res.status(500).json({ error: 'Impossible de générer les questions.', details: err.message });
+  }
+});
+
+/* ════════════════════════════════════
+   ROUTE — /api/synthesize-evals
+   Synthèse IA des évaluations étudiants
+════════════════════════════════════ */
+app.post('/api/synthesize-evals', async (req, res) => {
+  const { module_code, module_titre, programme, evaluations } = req.body;
+  if (!evaluations || !evaluations.length) {
+    return res.status(400).json({ error: 'Aucune évaluation fournie.' });
+  }
+
+  // Préparer un résumé des données pour l'IA
+  const nb = evaluations.length;
+  const avgContenu = (evaluations.reduce((s,e) => s+(e.note_contenu||0), 0)/nb).toFixed(1);
+  const avgProf    = (evaluations.reduce((s,e) => s+(e.note_prof||0), 0)/nb).toFixed(1);
+  const avgSupport = (evaluations.reduce((s,e) => s+(e.note_support||0), 0)/nb).toFixed(1);
+  const avgOrga    = (evaluations.reduce((s,e) => s+(e.note_organisation||0), 0)/nb).toFixed(1);
+  const recoRate   = Math.round(evaluations.filter(e=>e.recommande).length/nb*100);
+  const commentaires = evaluations
+    .map(e => e.commentaire || '')
+    .filter(c => c.length > 5)
+    .slice(0, 15)
+    .join('\n- ');
+
+  const prompt = `Tu es un conseiller pédagogique expert pour Canado Technique (CFPH, Haïti).
+Analyse les évaluations suivantes soumises par les étudiants après le module :
+
+MODULE : ${module_code} — ${module_titre} (Programme ${programme})
+NOMBRE D'ÉVALUATIONS : ${nb}
+
+NOTES MOYENNES (sur 5) :
+- Contenu du cours : ${avgContenu}/5
+- Qualité du professeur : ${avgProf}/5
+- Supports pédagogiques : ${avgSupport}/5
+- Organisation : ${avgOrga}/5
+- Taux de recommandation : ${recoRate}%
+
+COMMENTAIRES DES ÉTUDIANTS :
+- ${commentaires || 'Aucun commentaire libre.'}
+
+Génère un rapport pédagogique structuré et bienveillant destiné au professeur.
+Réponds UNIQUEMENT en JSON valide, sans markdown :
+{
+  "resume_executif": "2-3 phrases résumant la performance globale du module.",
+  "points_forts": [
+    "Point fort 1 concret et précis",
+    "Point fort 2",
+    "Point fort 3"
+  ],
+  "points_amelioration": [
+    "Point à améliorer 1 avec suggestion concrète",
+    "Point à améliorer 2",
+    "Point à améliorer 3"
+  ],
+  "recommandations_pedagogiques": [
+    "Recommandation actionnable 1",
+    "Recommandation actionnable 2",
+    "Recommandation actionnable 3"
+  ],
+  "message_prof": "Message encourageant et constructif de 2-3 phrases directement adressé au professeur."
+}`;
+
+  try {
+    const response = await anthropic.messages.create({
+      model: 'claude-sonnet-4-5',
+      max_tokens: 1500,
+      messages: [{ role: 'user', content: prompt }]
+    });
+
+    const raw = response.content.filter(b => b.type === 'text').map(b => b.text).join('');
+    const clean = raw.replace(/```json|```/g, '').trim();
+    const parsed = JSON.parse(clean);
+
+    res.json({
+      ...parsed,
+      module_code,
+      module_titre,
+      programme,
+      nb_evaluations: nb,
+      notes: { contenu: avgContenu, prof: avgProf, support: avgSupport, organisation: avgOrga },
+      taux_recommandation: recoRate,
+      date_synthese: new Date().toISOString()
+    });
+
+  } catch (err) {
+    console.error('[synthesize-evals] Erreur:', err.message);
+    res.status(500).json({ error: 'Impossible de synthétiser les évaluations.', details: err.message });
+  }
+});
+
+/* ════════════════════════════════════
    HEALTH CHECK
 ════════════════════════════════════ */
 app.get('/api/health', (req, res) => {
