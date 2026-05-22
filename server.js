@@ -167,12 +167,13 @@ app.post('/api/rooby', async (req, res) => {
    Génération de questions d'examen par IA
 ════════════════════════════════════ */
 app.post('/api/generate-exam', async (req, res) => {
-  const { module_code, module_titre, programme, annee, nb_questions = 10 } = req.body;
+  const { module_code, module_titre, programme, annee, nb_questions = 10, prompt_override } = req.body;
   if (!module_code || !module_titre) {
     return res.status(400).json({ error: 'module_code et module_titre requis.' });
   }
 
-  const prompt = `Tu es un expert en formation technique professionnelle en Haïti (CFPH - Canado Technique).
+  // Si un prompt complet est fourni (depuis l'exam builder avancé), l'utiliser directement
+  const prompt = prompt_override || `Tu es un expert en formation technique professionnelle en Haïti (CFPH - Canado Technique).
 Génère exactement ${nb_questions} questions QCM pour l'examen du module suivant :
 
 - Code : ${module_code}
@@ -191,12 +192,7 @@ Réponds UNIQUEMENT en JSON valide, sans markdown, sans explication, format exac
     {
       "numero": 1,
       "question": "Texte de la question ?",
-      "choix": {
-        "A": "Premier choix",
-        "B": "Deuxième choix",
-        "C": "Troisième choix",
-        "D": "Quatrième choix"
-      },
+      "choix": { "A": "Premier choix", "B": "Deuxième choix", "C": "Troisième choix", "D": "Quatrième choix" },
       "reponse": "A",
       "explication": "Courte explication de la bonne réponse."
     }
