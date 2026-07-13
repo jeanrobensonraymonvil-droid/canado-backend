@@ -40,13 +40,24 @@ app.use(cors({
   }
 }));
 
-// Limite : max 20 messages / minute par IP (anti-abus)
-const limiter = rateLimit({
+// Limite STRICTE sur les routes IA (elles coûtent des jetons Anthropic) : 20/min par IP
+const limiterIA = rateLimit({
   windowMs: 60 * 1000,
   max: 20,
   message: { error: 'Trop de requêtes. Réessayez dans une minute.' }
 });
-app.use('/api/', limiter);
+app.use('/api/rooby', limiterIA);
+app.use('/api/generate-exam', limiterIA);
+app.use('/api/synthesize-evals', limiterIA);
+
+// Limite SOUPLE sur l'API de certification : un formateur saisit vite,
+// une limite à 20/min le bloquerait en pleine session d'évaluation.
+const limiterAPI = rateLimit({
+  windowMs: 60 * 1000,
+  max: 200,
+  message: { error: 'Trop de requêtes. Réessayez dans une minute.' }
+});
+app.use('/api/v1', limiterAPI);
 
 /* ════════════════════════════════════
    SYSTEM PROMPT ROOBY
@@ -60,19 +71,21 @@ INFORMATIONS SUR L'ÉCOLE :
 - Site : canadotechnique.tech | Email : info@canadotechnique.tech
 - Directeur : Gary Pierre
 - Approche pédagogique : APC (Approche Par Compétences), homologuée MENFP
-- Plus de 1642 étudiants inscrits, 12+ ans d'expérience
+- Plus de 72 000 étudiants formés depuis la fondation, 50+ ans d'expérience
+- 4 filières, 108 modules au total, 1 800 heures par filière (programme APC homologué MENFP)
 
 PROGRAMMES OFFERTS (4 filières — 1ère et 2ème année) :
-1. TRI — Techniques de Réseaux Informatiques (28 modules : 16 an1 + 12 an2)
+1. TRI — Techniques de Réseaux Informatiques (28 modules)
    Réseaux, Cisco CCNA, Windows Server, Linux, Sécurité réseau, Cloud, Python, etc.
 
-2. MEI — Mécanique d'Entretien Industrielle (28 modules : 16 an1 + 12 an2)
+2. MEI — Mécanique d'Entretien Industrielle (28 modules)
    Usinage, Soudage, Machines-outils, Lubrification, Hydraulique, Pneumatique, etc.
 
-3. ELM — Électromécanique Industrielle (25 modules : 13 an1 + 12 an2)
-   Circuits CC/CA, Moteurs, Automatismes, Électronique, Groupes électrogènes, etc.
+3. ELM — Électromécanique (26 modules : 13 an1 + 13 an2 — 1 800 heures)
+   Circuits CC/CA, Électrification de bâtiments, Moteurs, Groupes électrogènes,
+   Pneumatique, Hydraulique, Électronique de puissance, Automates, Dépannage, Maintenance.
 
-4. TEL — Télécommunications (26 modules : 14 an1 + 12 an2)
+4. TEL — Télécommunications (26 modules)
    Antennes, Fibre optique, Téléphonie IP, Réseaux sans fil, Câblodistribution, etc.
 
 SPÉCIALISATIONS (3ème année) :
@@ -314,20 +327,30 @@ app.get('/api/health', (req, res) => {
     status: 'ok',
     service: 'Canado Technique Backend',
     rooby: 'opérationnel',
+    certification: process.env.DATABASE_URL ? 'active (voir /api/v1/health)' : 'inactive (DATABASE_URL manquante)',
     timestamp: new Date().toISOString()
   });
 });
+
+/* ════════════════════════════════════
+   API DE CERTIFICATION  (/api/v1)
+   Tables, grilles officielles et compte direction
+   s'installent automatiquement au démarrage.
+════════════════════════════════════ */
+require('./certification')(app);
 
 /* ════════════════════════════════════
    DÉMARRAGE
 ════════════════════════════════════ */
 app.listen(port, () => {
   console.log(`\n🚀 Canado Technique Backend démarré`);
-  console.log(`   Port     : ${port}`);
-  console.log(`   Rooby IA : POST /api/rooby`);
-  console.log(`   Health   : GET  /api/health\n`);
+  console.log(`   Port          : ${port}`);
+  console.log(`   Rooby IA      : POST /api/rooby`);
+  console.log(`   Certification : /api/v1  (login, évaluations, diplômes, vérification)`);
+  console.log(`   Health        : GET  /api/health  ·  GET /api/v1/health\n`);
 
-  if (!process.env.ANTHROPIC_API_KEY) {
-    console.warn('⚠️  ANTHROPIC_API_KEY manquante ! Ajoutez-la dans le fichier .env');
-  }
+  if (!process.env.ANTHROPIC_API_KEY) console.warn('⚠️  ANTHROPIC_API_KEY manquante.');
+  if (!process.env.DATABASE_URL)      console.warn('⚠️  DATABASE_URL manquante → certification désactivée.');
+  if (!process.env.JWT_SECRET)        console.warn('⚠️  JWT_SECRET manquante → sessions non sécurisées !');
+  if (!process.env.SEAL_SECRET)       console.warn('⚠️  SEAL_SECRET manquante → scellement non sécurisé !');
 });
