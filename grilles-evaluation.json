@@ -4,133 +4,561 @@
   "filiere": "TRI",
   "annee": 1,
   "titre": "Métier et formation",
-  "enonce": null,
+  "enonce": "Se situer au regard du métier et de la démarche de formation.",
   "heures": 30,
-  "type_objectif": "comportement",
-  "seuil_points": 75,
-  "seuil_criteres": null,
-  "total_criteres": null,
+  "type_objectif": "situation",
+  "seuil_points": null,
+  "seuil_criteres": 8,
+  "total_criteres": 11,
   "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Décrit la nature de l'emploi.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Résume les principales caractéristiques du travail.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Échange des idées avec les spécialistes du métier et les autres étudiants.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Décrit la liste des compétences à acquérir.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Décrit les modes d'évaluation.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Exprime sa perception du programme d'études.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Compare sa perception du programme d'études avec le marché du travail.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Décrit les règlements du centre et des laboratoires informatiques.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Présente ses champs d'intérêt, ses aptitudes et ses gouts.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Fait une synthèse des différents aspects du métier.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 11,
+    "libelle": "Justifie son choix de poursuivre ou non le programme d'études",
+    "points": null,
+    "obligatoire": false
+   }
+  ]
  },
  {
   "code": "TRI-02",
   "filiere": "TRI",
   "annee": 1,
   "titre": "Gestion du temps",
-  "enonce": null,
+  "enonce": "Gérer son temps.",
   "heures": 30,
-  "type_objectif": "comportement",
-  "seuil_points": 70,
-  "seuil_criteres": null,
-  "total_criteres": null,
+  "type_objectif": "situation",
+  "seuil_points": null,
+  "seuil_criteres": 5,
+  "total_criteres": 7,
   "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Recueille des données à partir des sources d'information mises à sa disposition.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Décrit au moins trois avantages d'une gestion efficace du temps.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Évalue son degré de satisfaction par rapport à ses principales activités personnelles.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Donne son avis sur les moyens à prendre pour bien gérer les activités professionnelles en soutien technique et en réseautique.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Utilise les outils de gestion fournis.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Fait un bilan de sa façon de gérer son temps.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Propose des moyens réalistes permettant une gestion plus efficace de son temps.",
+    "points": null,
+    "obligatoire": false
+   }
+  ]
  },
  {
   "code": "TRI-03",
   "filiere": "TRI",
   "annee": 1,
   "titre": "Mathématiques en informatique",
-  "enonce": null,
+  "enonce": "Résoudre des problèmes mathématiques en informatique.",
   "heures": 60,
   "type_objectif": "comportement",
   "seuil_points": 70,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
+  "duree_epreuve": "2 heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Conversion correcte d'une donnée numérique avec et sans virgule",
+    "points": 30,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Application de l'addition et de la soustraction dans un système binaire",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Représentation d'un nombre entier, d'un nombre réel et d'un caractère en mémoire",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Application des opérateurs logiques : Négation (Non), Intersection (et), Union (ou)",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Simplification algébrique d'une proposition logique",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Simplification par la méthode de Karnaugh d'une proposition logique",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Calcul exact du nombre d'arrangement",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Calcul exact du nombre de combinaison",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
  },
  {
   "code": "TRI-04",
   "filiere": "TRI",
   "annee": 1,
   "titre": "Anglais technique",
-  "enonce": null,
+  "enonce": "Lire et interpréter de la documentation technique en langue anglaise.",
   "heures": 30,
   "type_objectif": "comportement",
   "seuil_points": 75,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
+  "duree_epreuve": "2 heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Interprétation juste des étapes d'installation.",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Interprétation juste des directives d'utilisation du logiciel.",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Interprétation juste des fonctions du logiciel.",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Traduction correcte des termes techniques.",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Cohérence du texte.",
+    "points": 20,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Interprétation juste de l'information.",
+    "points": 20,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Respect des règles de grammaire et d'orthographe en langue française.",
+    "points": 15,
+    "obligatoire": false
+   }
+  ]
  },
  {
   "code": "TRI-05",
   "filiere": "TRI",
   "annee": 1,
   "titre": "Système d'exploitation",
-  "enonce": null,
+  "enonce": "Mettre à profit les possibilités de systèmes d'exploitation.",
   "heures": 75,
   "type_objectif": "comportement",
   "seuil_points": 80,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
+  "duree_epreuve": "4 heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Préparation correcte du disque dur",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Application correcte des procédures d'installation personnalisée",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Configuration correcte et optimisation du système d'exploitation",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Installation correcte des pilotes et des périphériques",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Compression et défragmentation correctes du disque dur",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Gestion appropriée des fichiers et des répertoires",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Utilisation efficace des fonctions d'aide et des programmes utilitaires du système d'exploitation",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Installation correcte des logiciels antivirus",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Mise en place de stratégies système appropriées à la protection des données de l'ordinateur",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Création correcte de tâches automatisées",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 11,
+    "libelle": "Création et exécution correcte d'un ficher en lot",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
  },
  {
   "code": "TRI-06",
   "filiere": "TRI",
   "annee": 1,
   "titre": "Résolution de problèmes",
-  "enonce": null,
+  "enonce": "Appliquer une démarche de résolution de problèmes.",
   "heures": 30,
   "type_objectif": "comportement",
   "seuil_points": 70,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
+  "duree_epreuve": "2 heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Relevé complet des anomalies.",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Estimation juste des conséquences du problème.",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Formulation claire et concise du problème",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Identification correcte des causes peu probables",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Formulation claire et concise des hypothèses.",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Application d'une démarche de vérification rigoureuse et logique",
+    "points": 20,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Détermination de la solution la plus appropriée en terme de coûts, de temps",
+    "points": 25,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Pertinence du jugement",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
  },
  {
   "code": "TRI-07",
   "filiere": "TRI",
   "annee": 1,
   "titre": "Recherche d'information",
-  "enonce": null,
+  "enonce": "Effectuer de la recherche d'information.",
   "heures": 15,
   "type_objectif": "comportement",
   "seuil_points": 80,
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Formulation claire du but de la recherche",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Détermination des différents aspects à considérer dans la recherche",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Repérage de l'information pertinente",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Sélection des sources appropriées à la recherche",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Interprétation juste de l'information",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Pertinence de l'information.",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Clarté et concision de la rédaction",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Conservation structurée de l'information recueillie",
+    "points": 5,
+    "obligatoire": false
+   }
+  ]
  },
  {
   "code": "TRI-08",
   "filiere": "TRI",
   "annee": 1,
   "titre": "Logiciels de bureautique",
-  "enonce": null,
+  "enonce": "Mettre à profit les possibilités de logiciels de bureautique.",
   "heures": 105,
   "type_objectif": "comportement",
   "seuil_points": 80,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
+  "duree_epreuve": "4 heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Insertion judicieuse d'un objet",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Mise en forme conforme aux consignes",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Publipostage du document conforme aux consignes",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Utilisation correcte des fonctions du tableur",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Représentation graphique appropriée des données",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Manipulation correcte des données",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Pertinence du plan de présentation",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Mise en forme conforme aux consignes",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Utilisation correcte des fonctions d'un logiciel de PAO",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Création de macro-commandes appropriées aux besoins",
+    "points": 5,
+    "obligatoire": false
+   }
+  ]
  },
  {
   "code": "TRI-09",
   "filiere": "TRI",
   "annee": 1,
   "titre": "Communication professionnelle",
-  "enonce": null,
+  "enonce": "Communiquer verbalement et par écrit en français dans un contexte de travail.",
   "heures": 60,
   "type_objectif": "comportement",
   "seuil_points": 75,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "2 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -139,13 +567,13 @@
   "filiere": "TRI",
   "annee": 1,
   "titre": "Installation d'un poste",
-  "enonce": null,
+  "enonce": "Installer des éléments physiques et logiques dans un poste de travail.",
   "heures": 90,
   "type_objectif": "comportement",
   "seuil_points": 80,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "4 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -154,28 +582,83 @@
   "filiere": "TRI",
   "annee": 1,
   "titre": "Base de données",
-  "enonce": null,
+  "enonce": "Créer et exploiter des bases de données.",
   "heures": 75,
   "type_objectif": "comportement",
   "seuil_points": 80,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
+  "duree_epreuve": "3 heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Établissement d'un modèle logique correct.",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Création d'une base de données fonctionnelle",
+    "points": 20,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Production correcte de formulaires de saisie.",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Production correcte de rapports.",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Ajout, suppression et modification corrects des données.",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Importation et exportation correctes des données.",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Utilisation optimale des possibilités de la base de données.",
+    "points": 20,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Optimisation adéquate de la performance de la base de données.",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Personnalisation correcte de l'interface utilisateur.",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
  },
  {
   "code": "TRI-12",
   "filiere": "TRI",
   "annee": 1,
   "titre": "Dépannage d'un poste",
-  "enonce": null,
+  "enonce": "Rétablir et optimiser le fonctionnement d'un poste de travail.",
   "heures": 90,
   "type_objectif": "comportement",
   "seuil_points": 80,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "4 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -184,28 +667,83 @@
   "filiere": "TRI",
   "annee": 1,
   "titre": "Technologies et services internet",
-  "enonce": null,
+  "enonce": "Exploiter les technologies et les services propres à Internet dans un poste de travail.",
   "heures": 45,
   "type_objectif": "comportement",
   "seuil_points": 75,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
+  "duree_epreuve": "4 heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Justification adéquate du choix de service",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Sélection d'un ou plusieurs services appropriés",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Identification correcte des exigences techniques servant de pré requis à la mise en ?uvre des services",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Estimation correcte des coûts d'exploitation des services",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Mise en ?uvre maîtrisée d'un éditeur WYSYWG",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Organisation logique du contenu",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Mise en ?uvre correcte des fonctionnalités qui répondent aux besoins de l'utilisateur et de l'environnement informatique",
+    "points": 20,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Intégration réussie d'éléments multimédia appropriés",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Publication réussie du site sur Internet",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
  },
  {
   "code": "TRI-14",
   "filiere": "TRI",
   "annee": 1,
   "titre": "Programmation de scripts",
-  "enonce": null,
+  "enonce": "Développer des scripts shell.",
   "heures": 90,
   "type_objectif": "comportement",
   "seuil_points": 70,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "4 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -214,13 +752,13 @@
   "filiere": "TRI",
   "annee": 1,
   "titre": "Assistance technique",
-  "enonce": null,
+  "enonce": "Offrir des services de soutien technique aux utilisateurs en milieu de travail.",
   "heures": 45,
   "type_objectif": "comportement",
   "seuil_points": 80,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "2 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -229,28 +767,77 @@
   "filiere": "TRI",
   "annee": 1,
   "titre": "Entrepreneuriat",
-  "enonce": null,
+  "enonce": "Se situer au regard d'un projet d'entreprise.",
   "heures": 30,
-  "type_objectif": "comportement",
-  "seuil_points": 75,
-  "seuil_criteres": null,
-  "total_criteres": null,
+  "type_objectif": "situation",
+  "seuil_points": null,
+  "seuil_criteres": 6,
+  "total_criteres": 8,
   "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Organise sa démarche pour la recherche d'information",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Réalise une démarche cohérente à  la planification",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Participe activement aux rencontres d'information",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Pertinence des informations recueillies",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Description juste de ses capacités de gestion",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Description juste de ses compétences techniques",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Dresse un bilan réaliste de ses possibilités",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Explique dans un rapport son orientation au regard d'un projet d'entreprise",
+    "points": null,
+    "obligatoire": false
+   }
+  ]
  },
  {
   "code": "TRI-17",
   "filiere": "TRI",
   "annee": 2,
   "titre": "Initiation à la réseautique",
-  "enonce": null,
+  "enonce": "Analyser l'architecture et le fonctionnement d'un réseau informatique",
   "heures": 75,
   "type_objectif": "comportement",
   "seuil_points": 75,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "4 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -259,13 +846,13 @@
   "filiere": "TRI",
   "annee": 2,
   "titre": "Installation de serveur",
-  "enonce": null,
+  "enonce": "Installer et administrer des serveurs et un annuaire réseau.",
   "heures": 75,
   "type_objectif": "comportement",
   "seuil_points": 75,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "5 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -274,13 +861,13 @@
   "filiere": "TRI",
   "annee": 2,
   "titre": "Routage et commutation",
-  "enonce": null,
+  "enonce": "Configurer des aiguilleurs.",
   "heures": 90,
   "type_objectif": "comportement",
   "seuil_points": 80,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "4 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -289,13 +876,13 @@
   "filiere": "TRI",
   "annee": 2,
   "titre": "Configuration des serveurs",
-  "enonce": null,
+  "enonce": "Exploitation des technologies et des services propres à internet dans un réseau.",
   "heures": 75,
   "type_objectif": "comportement",
   "seuil_points": 75,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "3 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -304,7 +891,7 @@
   "filiere": "TRI",
   "annee": 2,
   "titre": "Évolutivité des réseaux",
-  "enonce": null,
+  "enonce": "Implanter un réseau commuté.",
   "heures": 90,
   "type_objectif": "comportement",
   "seuil_points": 80,
@@ -319,13 +906,13 @@
   "filiere": "TRI",
   "annee": 2,
   "titre": "Maintenance des serveurs",
-  "enonce": null,
+  "enonce": "Administrer un annuaire réseau.",
   "heures": 75,
   "type_objectif": "comportement",
   "seuil_points": 75,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "3 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -334,13 +921,13 @@
   "filiere": "TRI",
   "annee": 2,
   "titre": "Câblage structuré",
-  "enonce": null,
+  "enonce": "Effectuer des travaux de câblage structuré dans un réseau informatique local.",
   "heures": 90,
   "type_objectif": "comportement",
   "seuil_points": 80,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "3 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -349,13 +936,13 @@
   "filiere": "TRI",
   "annee": 2,
   "titre": "Supervision et dépannage réseau",
-  "enonce": null,
+  "enonce": "Superviser et assurer le fonctionnement d'un réseau.",
   "heures": 75,
   "type_objectif": "comportement",
   "seuil_points": 75,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "5 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -364,13 +951,13 @@
   "filiere": "TRI",
   "annee": 2,
   "titre": "Connexion de réseaux",
-  "enonce": null,
+  "enonce": "Implanter des technologies propres aux réseaux longue distance.",
   "heures": 75,
   "type_objectif": "comportement",
   "seuil_points": 75,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "3 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -379,13 +966,13 @@
   "filiere": "TRI",
   "annee": 2,
   "titre": "Sécurité de réseau",
-  "enonce": null,
+  "enonce": "Assurer la sécurité des éléments physiques et logiques d'un réseau.",
   "heures": 75,
   "type_objectif": "comportement",
   "seuil_points": 75,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "3 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -394,13 +981,13 @@
   "filiere": "TRI",
   "annee": 2,
   "titre": "Implantation d'un réseau",
-  "enonce": null,
+  "enonce": "Concevoir et implanter un réseau.",
   "heures": 120,
   "type_objectif": "comportement",
   "seuil_points": 85,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "8 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -409,13 +996,13 @@
   "filiere": "TRI",
   "annee": 2,
   "titre": "Recherche d'emploi",
-  "enonce": null,
+  "enonce": "Utilisation de moyens de recherche de stage ou d'emploi.",
   "heures": 45,
   "type_objectif": "comportement",
   "seuil_points": 75,
   "seuil_criteres": null,
   "total_criteres": null,
-  "duree_epreuve": "",
+  "duree_epreuve": "2 heures",
   "grille_officielle": false,
   "criteres": []
  },
@@ -424,396 +1011,6 @@
   "filiere": "TEL",
   "annee": 1,
   "titre": "Métier et Formation",
-  "enonce": null,
-  "heures": 30,
-  "type_objectif": "comportement",
-  "seuil_points": 70,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-02",
-  "filiere": "TEL",
-  "annee": 1,
-  "titre": "Circuits à courant continu et à courant alternatif",
-  "enonce": null,
-  "heures": 90,
-  "type_objectif": "comportement",
-  "seuil_points": 85,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-03",
-  "filiere": "TEL",
-  "annee": 1,
-  "titre": "Utilisation de l'ordinateur",
-  "enonce": null,
-  "heures": 45,
-  "type_objectif": "comportement",
-  "seuil_points": 80,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-04",
-  "filiere": "TEL",
-  "annee": 1,
-  "titre": "Croquis et schémas",
-  "enonce": null,
-  "heures": 30,
-  "type_objectif": "comportement",
-  "seuil_points": 85,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-05",
-  "filiere": "TEL",
-  "annee": 1,
-  "titre": "Circuits d'électronique analogique",
-  "enonce": null,
-  "heures": 90,
-  "type_objectif": "comportement",
-  "seuil_points": 85,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-06",
-  "filiere": "TEL",
-  "annee": 1,
-  "titre": "Circuits d'oscillation et de filtration",
-  "enonce": null,
-  "heures": 90,
-  "type_objectif": "comportement",
-  "seuil_points": 85,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-07",
-  "filiere": "TEL",
-  "annee": 1,
-  "titre": "Circuit d'électronique numérique",
-  "enonce": null,
-  "heures": 75,
-  "type_objectif": "comportement",
-  "seuil_points": 80,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-08",
-  "filiere": "TEL",
-  "annee": 1,
-  "titre": "Circuits de modulation",
-  "enonce": null,
-  "heures": 90,
-  "type_objectif": "comportement",
-  "seuil_points": 85,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-09",
-  "filiere": "TEL",
-  "annee": 1,
-  "titre": "Santé et sécurité au travail",
-  "enonce": null,
-  "heures": 30,
-  "type_objectif": "comportement",
-  "seuil_points": 80,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-10",
-  "filiere": "TEL",
-  "annee": 1,
-  "titre": "Transmissions et protocoles de communication",
-  "enonce": null,
-  "heures": 60,
-  "type_objectif": "comportement",
-  "seuil_points": 75,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-11",
-  "filiere": "TEL",
-  "annee": 1,
-  "titre": "Installation d'antennes",
-  "enonce": null,
-  "heures": 75,
-  "type_objectif": "comportement",
-  "seuil_points": 85,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-12",
-  "filiere": "TEL",
-  "annee": 1,
-  "titre": "Terminologie anglaise",
-  "enonce": null,
-  "heures": 45,
-  "type_objectif": "comportement",
-  "seuil_points": 75,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-13",
-  "filiere": "TEL",
-  "annee": 1,
-  "titre": "Microprocesseurs et interfaces",
-  "enonce": null,
-  "heures": 60,
-  "type_objectif": "comportement",
-  "seuil_points": 80,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-14",
-  "filiere": "TEL",
-  "annee": 1,
-  "titre": "Remplacement de composants",
-  "enonce": null,
-  "heures": 30,
-  "type_objectif": "comportement",
-  "seuil_points": 80,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-15",
-  "filiere": "TEL",
-  "annee": 2,
-  "titre": "Communication radio AM et FM",
-  "enonce": null,
-  "heures": 75,
-  "type_objectif": "comportement",
-  "seuil_points": 85,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-16",
-  "filiere": "TEL",
-  "annee": 2,
-  "titre": "Câblage structuré",
-  "enonce": null,
-  "heures": 75,
-  "type_objectif": "comportement",
-  "seuil_points": 85,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-17",
-  "filiere": "TEL",
-  "annee": 2,
-  "titre": "Réseau informatique",
-  "enonce": null,
-  "heures": 75,
-  "type_objectif": "comportement",
-  "seuil_points": 80,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-18",
-  "filiere": "TEL",
-  "annee": 2,
-  "titre": "Système téléphonique",
-  "enonce": null,
-  "heures": 75,
-  "type_objectif": "comportement",
-  "seuil_points": 80,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-19",
-  "filiere": "TEL",
-  "annee": 2,
-  "titre": "Fibre optique",
-  "enonce": null,
-  "heures": 90,
-  "type_objectif": "comportement",
-  "seuil_points": 85,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-20",
-  "filiere": "TEL",
-  "annee": 2,
-  "titre": "Communication sans fil",
-  "enonce": null,
-  "heures": 75,
-  "type_objectif": "comportement",
-  "seuil_points": 80,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-21",
-  "filiere": "TEL",
-  "annee": 2,
-  "titre": "Téléphonie IP",
-  "enonce": null,
-  "heures": 75,
-  "type_objectif": "comportement",
-  "seuil_points": 80,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-22",
-  "filiere": "TEL",
-  "annee": 2,
-  "titre": "Câblodistribution",
-  "enonce": null,
-  "heures": 75,
-  "type_objectif": "comportement",
-  "seuil_points": 80,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-23",
-  "filiere": "TEL",
-  "annee": 2,
-  "titre": "Téléphonie sans fil",
-  "enonce": null,
-  "heures": 60,
-  "type_objectif": "comportement",
-  "seuil_points": 80,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-24",
-  "filiere": "TEL",
-  "annee": 2,
-  "titre": "Alimentation d'appoint",
-  "enonce": null,
-  "heures": 60,
-  "type_objectif": "comportement",
-  "seuil_points": 80,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-25",
-  "filiere": "TEL",
-  "annee": 2,
-  "titre": "Entrepreneuriat",
-  "enonce": null,
-  "heures": 30,
-  "type_objectif": "comportement",
-  "seuil_points": 75,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "TEL-26",
-  "filiere": "TEL",
-  "annee": 2,
-  "titre": "Marché du travail",
-  "enonce": null,
-  "heures": 45,
-  "type_objectif": "comportement",
-  "seuil_points": 75,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "",
-  "grille_officielle": false,
-  "criteres": []
- },
- {
-  "code": "ELM-01",
-  "filiere": "ELM",
-  "annee": 1,
-  "titre": "Métier et formation",
   "enonce": "Se situer au regard du métier et de la démarche de formation.",
   "heures": 30,
   "type_objectif": "situation",
@@ -821,6 +1018,7 @@
   "seuil_criteres": 7,
   "total_criteres": 10,
   "duree_epreuve": "",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -848,13 +1046,13 @@
    },
    {
     "ordre": 5,
-    "libelle": "Exprime sa perception du programme d'études.",
+    "libelle": "Exprime sa perception du programme de formation.",
     "points": null,
     "obligatoire": false
    },
    {
     "ordre": 6,
-    "libelle": "Compare sa perception du programme d'études avec le marché du travail.",
+    "libelle": "Compare sa perception du programme de formation avec le marché du travail.",
     "points": null,
     "obligatoire": false
    },
@@ -882,82 +1080,11 @@
     "points": null,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
-  "code": "ELM-02",
-  "filiere": "ELM",
-  "annee": 1,
-  "titre": "Utilisation de l'ordinateur",
-  "enonce": "Utiliser l'ordinateur.",
-  "heures": 45,
-  "type_objectif": "comportement",
-  "seuil_points": 80,
-  "seuil_criteres": null,
-  "total_criteres": null,
-  "duree_epreuve": "deux heures",
-  "criteres": [
-   {
-    "ordre": 1,
-    "libelle": "Création correcte des dossiers",
-    "points": 10,
-    "obligatoire": false
-   },
-   {
-    "ordre": 2,
-    "libelle": "Classement correct des fichiers",
-    "points": 10,
-    "obligatoire": false
-   },
-   {
-    "ordre": 3,
-    "libelle": "Création correcte de copies de sécurité",
-    "points": 10,
-    "obligatoire": false
-   },
-   {
-    "ordre": 4,
-    "libelle": "Utilisation appropriée des fonctions de base d'un logiciel de traitement de texte",
-    "points": 15,
-    "obligatoire": false
-   },
-   {
-    "ordre": 5,
-    "libelle": "Utilisation appropriée des fonctions de base d'un tableur",
-    "points": 15,
-    "obligatoire": false
-   },
-   {
-    "ordre": 6,
-    "libelle": "Choix pertinent du site",
-    "points": 10,
-    "obligatoire": false
-   },
-   {
-    "ordre": 7,
-    "libelle": "Repérage approprié de l'information recherchée",
-    "points": 10,
-    "obligatoire": false
-   },
-   {
-    "ordre": 8,
-    "libelle": "Utilisation correcte pour transmission et réception d'un message",
-    "points": 10,
-    "obligatoire": false
-   },
-   {
-    "ordre": 9,
-    "libelle": "Sauvegarde correcte d'une pièce attachée au message",
-    "points": 10,
-    "obligatoire": false
-   }
-  ],
-  "grille_officielle": true
- },
- {
-  "code": "ELM-03",
-  "filiere": "ELM",
+  "code": "TEL-02",
+  "filiere": "TEL",
   "annee": 1,
   "titre": "Circuits à courant continu et à courant alternatif",
   "enonce": "Vérifier des circuits à courant continu et à courant alternatif.",
@@ -967,6 +1094,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "trois heures",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -1046,12 +1174,81 @@
     "points": 5,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
-  "code": "ELM-04",
-  "filiere": "ELM",
+  "code": "TEL-03",
+  "filiere": "TEL",
+  "annee": 1,
+  "titre": "Utilisation de l'ordinateur",
+  "enonce": "Utiliser l'ordinateur.",
+  "heures": 45,
+  "type_objectif": "comportement",
+  "seuil_points": 80,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "deux heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Création correcte des dossiers",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Classement correct des fichiers",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Création correcte de copies de sécurité",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Utilisation appropriée des fonctions de base d'un logiciel de traitement de texte",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Utilisation appropriée des fonctions de base d'un tableur",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Choix pertinent du site",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Repérage approprié de l'information recherchée",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Utilisation correcte pour transmission et réception d'un message",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Sauvegarde correcte d'une pièce attachée au message",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-04",
+  "filiere": "TEL",
   "annee": 1,
   "titre": "Croquis et schémas",
   "enonce": "Réaliser des croquis et des schémas.",
@@ -1061,6 +1258,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "deux heures",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -1128,8 +1326,1977 @@
     "points": 5,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
+ },
+ {
+  "code": "TEL-05",
+  "filiere": "TEL",
+  "annee": 1,
+  "titre": "Circuits d'électronique analogique",
+  "enonce": "Vérifier le fonctionnement des circuits d'électronique analogique.",
+  "heures": 90,
+  "type_objectif": "comportement",
+  "seuil_points": 85,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Identification exacte des composants du circuit",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Identification juste des caractéristiques techniques des composants",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Estimation correcte des valeurs de courant à différents points",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Estimation correcte des valeurs de tension à différents points",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Estimation correcte des formes d'onde à différents points",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Mesures exactes des tensions à différents points",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Mesures exactes des courants à différents points",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Prise correcte des formes d'onde à différents points",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Explication juste des écarts",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Justesse du verdict sur le fonctionnement du circuit",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-06",
+  "filiere": "TEL",
+  "annee": 1,
+  "titre": "Circuits d'oscillation et de filtration",
+  "enonce": "Vérifier le fonctionnement d'un circuit d'oscillation et de filtration.",
+  "heures": 90,
+  "type_objectif": "comportement",
+  "seuil_points": 85,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "trois heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Identification exacte du type de circuit de filtration",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Identification exacte des principales composantes du circuit de filtration",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Identification exacte du type de circuit oscillateur",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Identification exacte des principales composantes du circuit oscillateur",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Utilisation appropriée des instruments pour les mesures dans le circuit oscillateur",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Exactitude des mesures prises dans le circuit oscillateur",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Identification exacte de la forme d'onde générée par le circuit oscillateur",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Identification exacte de la  plage d'oscillation.",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Utilisation appropriée des instruments pour les mesures dans le circuit filtre",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Exactitude des mesures prises dans le circuit filtre",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 11,
+    "libelle": "Interprétation juste de la courbe  de réponse.",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 12,
+    "libelle": "Ajustement conforme aux normes ou aux directives",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-07",
+  "filiere": "TEL",
+  "annee": 1,
+  "titre": "Circuit d'électronique numérique",
+  "enonce": "Vérifier le fonctionnement des circuits d'électronique numérique.",
+  "heures": 75,
+  "type_objectif": "comportement",
+  "seuil_points": 80,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Établissement juste de la table de vérité d'un circuit combinatoire",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Application correcte d'une méthode de simplification",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Table de vérité correspondant au circuit simplifié",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Détermination correcte du chronogramme de fonctionnent",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Montage du circuit de logique combinatoire conforme au schéma",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Niveau logique cohérent aux fonctions combinatoires du circuit réalisé",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Montage du circuit de logique séquentielle conforme au schéma",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Chronogramme des signaux conforme aux fonctions séquentielles du circuit réalisé",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-08",
+  "filiere": "TEL",
+  "annee": 1,
+  "titre": "Circuits de modulation",
+  "enonce": "Vérifier le fonctionnement d'un circuit de modulation.",
+  "heures": 90,
+  "type_objectif": "comportement",
+  "seuil_points": 85,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Reconnaissance exacte des différents types de modulation",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Exactitude des mesures",
+    "points": 20,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Justesse du verdict sur le respect ou non respect du cahier de charges ou des directives",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Repérage correct des points d'ajustement",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Ajustements conformes aux directives",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Circuit fonctionnel",
+    "points": 20,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Consignation claire des mesures et des observations",
+    "points": 15,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-09",
+  "filiere": "TEL",
+  "annee": 1,
+  "titre": "Santé et sécurité au travail",
+  "enonce": "Appliquer les règles de santé et de sécurité au travail.",
+  "heures": 30,
+  "type_objectif": "comportement",
+  "seuil_points": 80,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "2 heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Énumération juste des risques potentiels liés à la manipulation des matériaux et des outils",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Énumération juste des risques potentiels liés à l'utilisation des équipements de coupe, de perçage et d'ancrage",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Énumération juste des risques potentiels liés à l'utilisation du matériel et de l'outillage lors de travaux sur la fibre optique",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Énumération juste des risques potentiels liés à des travaux d'entretien sur les  groupes électrogènes",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Énumération juste des risques potentiels liés à des situations de travail en hauteur",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Énumération juste des risques potentiels liés à l'utilisation des produits inflammables et des solvants",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Énumération juste des risques d'électrocution lors d'installation et de la mise en service d'équipement de télécommunication",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Détermination claire des mesures à prendre lors de l'utilisation des équipements de coupe, de perçage et d'ancrage",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Détermination claire des mesures à prendre lors de travaux sur la fibre optique",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Détermination claire des mesures à prendre lors des travaux  d'entretien de groupes électrogènes",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 11,
+    "libelle": "Détermination claire des mesures à prendre pour prévenir les risques d'électrocution",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-10",
+  "filiere": "TEL",
+  "annee": 1,
+  "titre": "Transmissions et protocoles de communication",
+  "enonce": "Installer des antennes.",
+  "heures": 60,
+  "type_objectif": "comportement",
+  "seuil_points": 85,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "trois heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Reconnaissance exacte de divers types d'antennes",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Reconnaissance exacte de divers types de lignes de transmission",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Fixation solide de l'antenne",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Choix des connecteurs appropriés",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Pose correcte des connecteurs",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Raccordements conformes au plan",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Utilisation appropriée des instruments de mesure",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Exactitude des mesures",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Pertinence et justesse des ajustements ou correctifs apportés à l'installation",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Fonctionnement conforme aux normes ou aux directives",
+    "points": 20,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-11",
+  "filiere": "TEL",
+  "annee": 1,
+  "titre": "Installation d'antennes",
+  "enonce": "Utiliser de la documentation technique en langue anglaise.",
+  "heures": 75,
+  "type_objectif": "comportement",
+  "seuil_points": 75,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "deux heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Compréhension claire des procédures d'installation présentées",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Compréhension claire des procédures de mise en marche présentées",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Compréhension claire des procédures de réglage présentées",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Fidélité du texte par rapport au texte original",
+    "points": 25,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Clarté du texte",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Absence de fautes de grammaire et d'orthographe",
+    "points": 15,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-12",
+  "filiere": "TEL",
+  "annee": 1,
+  "titre": "Terminologie anglaise",
+  "enonce": "Vérifier un circuit à microprocesseur.",
+  "heures": 45,
+  "type_objectif": "comportement",
+  "seuil_points": 80,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "trois heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Identification exacte du type de lignes",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Identification exacte du type de mémoire",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Identification juste des circuits d'interface",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Identification juste du ou des circuits d'alimentation",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Détermination juste des caractéristiques du microprocesseur",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Détermination juste des caractéristiques des mémoires",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Détermination juste des caractéristiques des interfaces",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Branchements conformes au plan",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Branchement approprié des instruments en fonction des mesures à prendre",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Exactitude des mesures",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 11,
+    "libelle": "Relevé précis des observations",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 12,
+    "libelle": "Justesse du verdict sur le fonctionnement du circuit",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 13,
+    "libelle": "Justesse et pertinence des correctifs",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-13",
+  "filiere": "TEL",
+  "annee": 1,
+  "titre": "Microprocesseurs et interfaces",
+  "enonce": "Raccorder du matériel de communication radio.",
+  "heures": 60,
+  "type_objectif": "comportement",
+  "seuil_points": 85,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "quatre heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Schéma représentatif des raccordements à réaliser",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Sélection des câbles appropriés",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Sélection des conducteurs appropriés",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Sélection des connecteurs appropriés aux câbles et aux conducteurs",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Raccordements conformes au schéma",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Configuration conforme à la fiche technique",
+    "points": 20,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Application correcte des étapes de vérification du fonctionnement",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Fonctionnement du système conforme aux normes et aux directives",
+    "points": 20,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-14",
+  "filiere": "TEL",
+  "annee": 1,
+  "titre": "Remplacement de composants",
+  "enonce": "Remplacer des composants.",
+  "heures": 30,
+  "type_objectif": "comportement",
+  "seuil_points": 80,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "trois heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Application correcte de la technique de dessoudage",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Pièce électronique de remplacement équivalente",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Application correcte de la  technique de démontage",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Respect de la continuité électrique",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Respect de la solidité mécanique",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Intégrité du circuit électronique",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Solidité de l'assemblage",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Présence de toutes les pièces",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-15",
+  "filiere": "TEL",
+  "annee": 2,
+  "titre": "Communication radio AM et FM",
+  "enonce": "Réparer du matériel de communication radio.",
+  "heures": 75,
+  "type_objectif": "comportement",
+  "seuil_points": 85,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "trois heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Collecte de l'information technique pertinente à la réparation",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Formulation claire des causes possibles du problème",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Choix réaliste des vérifications à effectuer",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Pertinence et exactitude des mesures effectuées",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Identification claire de la cause du problème",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Application correcte de la méthode pour corriger le problème",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Choix approprié des mesures et des observations à effectuer",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Justesse des mesures et des observations",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Fonctionnement conforme aux normes et directives",
+    "points": 20,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-16",
+  "filiere": "TEL",
+  "annee": 2,
+  "titre": "Câblage structuré",
+  "enonce": "Effectuer des travaux de câblage structuré.",
+  "heures": 75,
+  "type_objectif": "comportement",
+  "seuil_points": 85,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "trois heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Interprétation juste des symboles",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Interprétation juste de la terminologie",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Détermination d'un parcours de câble approprié",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Identification correcte des équipements",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Choix des câbles et des connecteurs appropriés",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Fixation solide des câbles et des conducteurs",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Esthétisme de l'installation",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Fiabilité mécanique et électrique des épissures",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Application correcte de la technique pour la pose des connecteurs",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Fiabilité mécanique et électrique des raccordements",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 11,
+    "libelle": "Application correcte de la  méthode de vérification",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-17",
+  "filiere": "TEL",
+  "annee": 2,
+  "titre": "Réseau informatique",
+  "enonce": "Utiliser les techniques de transmission et les protocoles de communication.",
+  "heures": 75,
+  "type_objectif": "comportement",
+  "seuil_points": 75,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "deux heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Identification juste de divers  types de câbles utilisés comme support de transmission",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Reconnaissance exacte des caractéristiques de divers types de  câbles utilisés comme supports de transmission",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Identification juste de différentes techniques de transmission",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Association correcte entre des techniques de transmission et leurs  caractéristiques",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Détermination juste des caractéristiques des techniques de multiplexage",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Reconnaissance exacte de la méthode de codification",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Reconnaissance exacte des caractéristiques de l'interface RS-232",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Reconnaissance exacte des caractéristiques de l'interface RS-432",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Reconnaissance exacte des réseaux et de leurs topologies",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Association correcte entre les protocoles de communication et les couche OSI",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 11,
+    "libelle": "Identification juste des composants d'un réseau",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 12,
+    "libelle": "Détermination juste de la fonction des composants d'un réseau",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-18",
+  "filiere": "TEL",
+  "annee": 2,
+  "titre": "Système téléphonique",
+  "enonce": "Installer un système téléphonique.",
+  "heures": 75,
+  "type_objectif": "comportement",
+  "seuil_points": 85,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "quatre heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Visualisation correcte du parcours des câbles et des conducteurs",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Repérage précis des lignes",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Fixation solide et esthétique des composants",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Raccordements conformes aux normes et aux directives",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Fiabilité des raccordements",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Programmation conforme aux besoins du client",
+    "points": 20,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Système fonctionnel",
+    "points": 20,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Fiche d'intervention dûment complétée",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-19",
+  "filiere": "TEL",
+  "annee": 2,
+  "titre": "Fibre optique",
+  "enonce": "Effectuer des épissures et des raccordements sur des câbles à fibre optique.",
+  "heures": 90,
+  "type_objectif": "comportement",
+  "seuil_points": 85,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "trois heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Identification juste des types de câble à fibre optique",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Détermination juste des caractéristiques des câbles à fibre optique",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Précision des coupes",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Préparation adéquate des câbles pour la réalisation des épissures",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Application correcte de la technique de fusion",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Utilisation appropriée de l'instrument de mesure (Wattmètre optique, optical loss test set)",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Respect des tolérances permises pour les pertes en dB",
+    "points": 20,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Utilisation appropriée de l'instrument de mesure ODTR",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Interprétation juste des mesures effectuées à l'ODTR",
+    "points": 20,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-20",
+  "filiere": "TEL",
+  "annee": 2,
+  "titre": "Communication sans fil",
+  "enonce": "Raccorder le matériel et l'équipement d'un réseau informatique.",
+  "heures": 75,
+  "type_objectif": "comportement",
+  "seuil_points": 85,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "trois heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Détermination juste de la topologie du réseau",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Identification correcte des parcours de câbles",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Sélection du matériel approprié",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Identification claire des câbles et ces conducteurs",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Exécution des tests appropriés sur les câbles et les conducteurs",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Raccordements conformes au plan ou aux directives",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Fiabilité des raccordements",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Configuration matérielle correcte",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Application correcte de la procédure de configuration",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Exécution des tests appropriés",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 11,
+    "libelle": "Fonctionnement conforme aux normes ou aux directives",
+    "points": 20,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-21",
+  "filiere": "TEL",
+  "annee": 2,
+  "titre": "Téléphonie IP",
+  "enonce": "Installer un système de téléphonie IP.",
+  "heures": 75,
+  "type_objectif": "comportement",
+  "seuil_points": 85,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "quatre heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Détermination juste des composants à installer",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Croquis représentatif des raccordements à effectuer",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Localisation précise des points de raccordement et de fixation",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Application correcte des techniques de fixation",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Préparation appropriée des câbles et des conducteurs",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Raccordements conformes au croquis illustrant les raccordements",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Respect des normes propres à la téléphonie",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Vérification exhaustive des points de jonction et d'interconnexion",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Vérification des tensions d'alimentation et de fonctionnement",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Interprétation juste des données à configurer",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 11,
+    "libelle": "Application correcte de la procédure du fabricant",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 12,
+    "libelle": "Exécution des tests appropriés",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 13,
+    "libelle": "Fonctionnement du système conforme aux normes ou aux directives",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-22",
+  "filiere": "TEL",
+  "annee": 2,
+  "titre": "Câblodistribution",
+  "enonce": "Installer du matériel de câblodistribution.",
+  "heures": 75,
+  "type_objectif": "comportement",
+  "seuil_points": 85,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "quatre heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Croquis représentatif de l'installation à réaliser",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Clarté du croquis",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Sélection du matériel approprié à l'installation",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Choix approprié de l'emplacement pour le parcours des câbles",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Détermination correcte des points de vérification",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Exactitude des mesures",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Fixation correcte du matériel",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Solidité des raccordements",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Pertinence et exactitude des mesures effectuées",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Fixation correcte des câbles et des accessoires",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 11,
+    "libelle": "Solidité des raccordements",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 12,
+    "libelle": "Fonctionnement conforme aux normes",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-23",
+  "filiere": "TEL",
+  "annee": 2,
+  "titre": "Téléphonie sans fil",
+  "enonce": "Réparer du matériel de câblodistribution.",
+  "heures": 60,
+  "type_objectif": "comportement",
+  "seuil_points": 80,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "trois heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Formulation d'hypothèses réalistes de la cause du problème",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Détermination correcte des vérifications et des mesures à effectuer",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Exactitude des observations et des mesures effectuées",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Justesse du diagnostic",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Application correcte de la technique de réparation",
+    "points": 20,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Fonctionnement conforme aux normes ou aux directives",
+    "points": 25,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-24",
+  "filiere": "TEL",
+  "annee": 2,
+  "titre": "Alimentation d'appoint",
+  "enonce": "Assurer le fonctionnement d'un système de téléphonie sans fil.",
+  "heures": 60,
+  "type_objectif": "comportement",
+  "seuil_points": 85,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "trois heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Représentation juste de l'architecture d'un système de téléphonie sans fil DECT ou équivalent",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Représentation juste de l'architecture d'un système de téléphonie cellulaire",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Croquis représentatif des liens entre les composants d'un système de téléphonie sans fil DECT ou équivalent",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Croquis représentatif des liens entre les composants d'un système de téléphonie cellulaire",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Association juste entre les composants d'un système DECT ou équivalent et leur fonction",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Association juste entre les composants d'un système de téléphonie cellulaire et leur fonction",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Interprétation juste des caractéristiques des composants d'un système DECT ou équivalent",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Interprétation juste des caractéristiques des composants d'un système de téléphonie cellulaire",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Configuration appropriée du système",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Pertinence et justesse des réglages",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 11,
+    "libelle": "Fonctionnement conforme aux normes ou aux directives",
+    "points": 20,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-25",
+  "filiere": "TEL",
+  "annee": 2,
+  "titre": "Entrepreneuriat",
+  "enonce": "Entretenir des systèmes d'alimentation d'appoint.",
+  "heures": 30,
+  "type_objectif": "comportement",
+  "seuil_points": 80,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "trois heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Identification juste des points de vérification",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Relevé précis des principales caractéristiques du système",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Mesure précise de la densité de l'électrolyte",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Évaluation correcte de l'état des bornes et des connexions",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Application correcte de la technique d'entretien des batteries d'accumulateurs",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Évaluation correcte de l'état des circuits électriques",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Évaluation correcte du niveau des huiles",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Évaluation correcte de l'usure des pièces mécaniques",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Application correcte des techniques d'entretien du groupe électrogène",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Application correcte de la méthode de mise en marche",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 11,
+    "libelle": "Relevé précis des observations visuelles et auditives",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 12,
+    "libelle": "Relevé précis des mesures",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 13,
+    "libelle": "Justesse du diagnostic",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "TEL-26",
+  "filiere": "TEL",
+  "annee": 2,
+  "titre": "Marché du travail",
+  "enonce": "Se situer au regard d'un projet d'entreprise.",
+  "heures": 45,
+  "type_objectif": "situation",
+  "seuil_points": null,
+  "seuil_criteres": 6,
+  "total_criteres": 8,
+  "duree_epreuve": "",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Organise sa démarche pour la recherche d'information",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Réalise une démarche cohérente à  la planification",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Participe activement aux rencontres d'information",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Pertinence des informations recueillies",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Description juste de ses capacités de gestion",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Description juste de ses compétences techniques",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Dresse un bilan réaliste de ses possibilités",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Explique dans un rapport son orientation au regard d'un projet d'entreprise",
+    "points": null,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "ELM-01",
+  "filiere": "ELM",
+  "annee": 1,
+  "titre": "Métier et formation",
+  "enonce": "Se situer au regard du métier et de la démarche de formation.",
+  "heures": 30,
+  "type_objectif": "situation",
+  "seuil_points": null,
+  "seuil_criteres": 7,
+  "total_criteres": 10,
+  "duree_epreuve": "",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Décrit la nature de l'emploi.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Résume les principales caractéristiques du travail.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Décrit la liste des compétences à acquérir.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Décrit les modes d'évaluation.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Exprime sa perception du programme d'études.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Compare sa perception du programme d'études avec le marché du travail.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Échange des idées avec les spécialistes du métier et les autres étudiants.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Présente ses champs d'intérêt, ses aptitudes et ses gouts.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Fait une synthèse des différents aspects du métier.",
+    "points": null,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Justifie son choix de poursuivre ou non le programme d'études",
+    "points": null,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "ELM-02",
+  "filiere": "ELM",
+  "annee": 1,
+  "titre": "Utilisation de l'ordinateur",
+  "enonce": "Utiliser l'ordinateur.",
+  "heures": 45,
+  "type_objectif": "comportement",
+  "seuil_points": 80,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "deux heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Création correcte des dossiers",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Classement correct des fichiers",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Création correcte de copies de sécurité",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Utilisation appropriée des fonctions de base d'un logiciel de traitement de texte",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Utilisation appropriée des fonctions de base d'un tableur",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Choix pertinent du site",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Repérage approprié de l'information recherchée",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Utilisation correcte pour transmission et réception d'un message",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Sauvegarde correcte d'une pièce attachée au message",
+    "points": 10,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "ELM-03",
+  "filiere": "ELM",
+  "annee": 1,
+  "titre": "Circuits à courant continu et à courant alternatif",
+  "enonce": "Vérifier des circuits à courant continu et à courant alternatif.",
+  "heures": 90,
+  "type_objectif": "comportement",
+  "seuil_points": 85,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "trois heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Montage du circuit conforme au schéma",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Sélection des formules mathématiques appropriées",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Exactitude des calculs de la résistance équivalente",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Exactitude des calculs des réactances et de l'impédance",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Calcul exact du facteur de puissance du circuit",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Exactitude des calculs de tension",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Exactitude des mesures de courant",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Exactitude des mesures de tension",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Exactitude des mesures des valeurs de crête",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Mesures exactes des angles de déphasage",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 11,
+    "libelle": "Mesure exacte de la période",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 12,
+    "libelle": "Calcul exact des pourcentages d'erreur entre les mesures et les calculs",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 13,
+    "libelle": "Explication réaliste des écarts entre les calculs et les mesures",
+    "points": 5,
+    "obligatoire": false
+   }
+  ]
+ },
+ {
+  "code": "ELM-04",
+  "filiere": "ELM",
+  "annee": 1,
+  "titre": "Croquis et schémas",
+  "enonce": "Réaliser des croquis et des schémas.",
+  "heures": 30,
+  "type_objectif": "comportement",
+  "seuil_points": 85,
+  "seuil_criteres": null,
+  "total_criteres": null,
+  "duree_epreuve": "deux heures",
+  "grille_officielle": true,
+  "criteres": [
+   {
+    "ordre": 1,
+    "libelle": "Respect des normes de disposition des vues",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 2,
+    "libelle": "Respect de l'échelle",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 3,
+    "libelle": "Représentation conforme à la pièce dans chaque vue",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 4,
+    "libelle": "Tracé précis et propre",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 5,
+    "libelle": "Respect de l'échelle",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 6,
+    "libelle": "Vue conforme à la pièce",
+    "points": 15,
+    "obligatoire": false
+   },
+   {
+    "ordre": 7,
+    "libelle": "Tracé précis et propre",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 8,
+    "libelle": "Utilisation des cotes appropriées",
+    "points": 10,
+    "obligatoire": false
+   },
+   {
+    "ordre": 9,
+    "libelle": "Disposition correcte des lignes de cote et d'attache",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 10,
+    "libelle": "Tracé précis et propre des lignes de cote et d'attache",
+    "points": 5,
+    "obligatoire": false
+   },
+   {
+    "ordre": 11,
+    "libelle": "Clarté des lettres et des chiffres",
+    "points": 5,
+    "obligatoire": false
+   }
+  ]
  },
  {
   "code": "ELM-05",
@@ -1143,6 +3310,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "2heures",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -1222,8 +3390,7 @@
     "points": 10,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-06",
@@ -1237,6 +3404,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "2heures",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -1304,8 +3472,7 @@
     "points": 10,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-07",
@@ -1319,6 +3486,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "5 heures",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -1380,8 +3548,7 @@
     "points": 5,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-08",
@@ -1395,6 +3562,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "cinq heures",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -1462,8 +3630,7 @@
     "points": 20,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-09",
@@ -1477,6 +3644,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -1520,8 +3688,7 @@
     "points": 10,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-10",
@@ -1535,6 +3702,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -1596,8 +3764,7 @@
     "points": 20,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-11",
@@ -1611,6 +3778,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "deux heures",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -1648,8 +3816,7 @@
     "points": 15,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-14",
@@ -1663,6 +3830,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -1724,8 +3892,7 @@
     "points": 10,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-15",
@@ -1739,6 +3906,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -1788,8 +3956,7 @@
     "points": 10,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-12",
@@ -1803,6 +3970,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "4 heures",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -1864,8 +4032,7 @@
     "points": 15,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-13",
@@ -1879,6 +4046,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "4 heures",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -1922,8 +4090,7 @@
     "points": 20,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-16",
@@ -1937,6 +4104,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "2,5 heures",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -1992,8 +4160,7 @@
     "points": 10,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-17",
@@ -2007,6 +4174,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "5 heures",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -2062,8 +4230,7 @@
     "points": 10,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-18",
@@ -2077,6 +4244,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -2138,8 +4306,7 @@
     "points": 20,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-19",
@@ -2153,6 +4320,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -2220,8 +4388,7 @@
     "points": 10,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-20",
@@ -2235,6 +4402,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "quatre heures",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -2272,8 +4440,7 @@
     "points": 25,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-21",
@@ -2287,6 +4454,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -2336,8 +4504,7 @@
     "points": 15,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-22",
@@ -2351,6 +4518,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -2394,8 +4562,7 @@
     "points": 20,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-23",
@@ -2409,6 +4576,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -2458,8 +4626,7 @@
     "points": 20,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-24",
@@ -2473,6 +4640,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "deux heures",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -2516,8 +4684,7 @@
     "points": 10,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-25",
@@ -2531,6 +4698,7 @@
   "seuil_criteres": 6,
   "total_criteres": 8,
   "duree_epreuve": "",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -2580,8 +4748,7 @@
     "points": null,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "ELM-26",
@@ -2595,6 +4762,7 @@
   "seuil_criteres": null,
   "total_criteres": null,
   "duree_epreuve": "",
+  "grille_officielle": true,
   "criteres": [
    {
     "ordre": 1,
@@ -2638,8 +4806,7 @@
     "points": 10,
     "obligatoire": false
    }
-  ],
-  "grille_officielle": true
+  ]
  },
  {
   "code": "MEI-01",
