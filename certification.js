@@ -35,8 +35,14 @@ const SEAL_SECRET = process.env.SEAL_SECRET || 'CHANGEZ-MOI-AUSSI';
 
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
-  ssl: (process.env.DATABASE_URL || '').includes('localhost') ? false : { rejectUnauthorized: false }
+  ssl: (process.env.DATABASE_URL || '').includes('localhost') ? false : { rejectUnauthorized: false },
+  connectionTimeoutMillis: 10000,
+  max: 10
 });
+
+// ⚠️ Sans ce gestionnaire, une erreur de connexion Postgres FAIT PLANTER tout le serveur
+//    (Rooby compris). La certification peut être indisponible ; le reste doit survivre.
+pool.on('error', (e) => console.error('[certification] Erreur du pool Postgres :', e.message));
 
 const sceller = (o) => crypto.createHmac('sha256', SEAL_SECRET).update(JSON.stringify(o)).digest('hex');
 
@@ -162,12 +168,26 @@ FROM v_dossier GROUP BY etudiant_id, matricule, filiere;
 /* ════════════════════════════════════════════════════
    INSTALLATION AUTOMATIQUE AU DÉMARRAGE
 ════════════════════════════════════════════════════ */
-async function installer() {
+async function installer(essai = 1) {
   if (!process.env.DATABASE_URL) {
     console.warn('⚠️  DATABASE_URL absente — certification désactivée.');
     return false;
   }
-  const c = await pool.connect();
+  let c;
+  try {
+    c = await pool.connect();          // ← DANS le try : une base injoignable ne doit pas tuer le serveur
+  } catch (e) {
+    console.error(`   ❌ Postgres injoignable (essai ${essai}/3) : ${e.message}`);
+    if (e.code === 'ENOTFOUND') {
+      console.error("      → l'hôte n'existe pas. Utilise DATABASE_PUBLIC_URL au lieu de l'URL interne.");
+    }
+    if (essai < 3) {
+      await new Promise(r => setTimeout(r, 5000));   // le DNS privé de Railway met parfois du temps
+      return installer(essai + 1);
+    }
+    console.error('   ⚠️  Certification indisponible — le reste du serveur continue de tourner.');
+    return false;
+  }
   try {
     await c.query(SCHEMA);
     console.log('   ✅ Schéma de certification en place');
@@ -225,14 +245,15 @@ async function installer() {
   } catch (e) {
     console.error('   ❌ Installation certification :', e.message);
     return false;
-  } finally { c.release(); }
+  } finally { if (c) c.release(); }
 }
 
 /* ════════════════════════════════════════════════════
    ROUTES
 ════════════════════════════════════════════════════ */
 module.exports = function (app) {
-  installer();
+  installer().catch(e =>
+    console.error('[certification] Installation échouée :', e.message));
 
   const auth = (...roles) => (req, res, next) => {
     const h = req.headers.authorization || '';
@@ -485,6 +506,8 @@ module.exports = function (app) {
 
   /* ── SANTÉ DU MODULE CERTIFICATION ── */
   app.get('/api/v1/health', async (req, res) => {
+    if (!process.env.DATABASE_URL)
+      return res.status(503).json({ status: 'ko', erreur: 'DATABASE_URL non configurée.' });
     try {
       const { rows } = await pool.query(
         `SELECT filiere, COUNT(*) modules,
